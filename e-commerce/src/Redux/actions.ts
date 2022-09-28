@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { SET_PRODS_DATA,SET_DISPLAY_PROD_DATA ,SET_CATEGORIES, ADD_FAVOURITE} from "./actiontypes";
 import {Prodtypes,Actiontypes, Categorytypes, CategoryOptionstype, StringProdtypes} from '../State/index';
-import { Dispatch } from 'redux';
+// import { Dispatch } from 'redux';
 
 export const setProdsData=(payload:Array<Prodtypes>):Actiontypes=>{
  return{

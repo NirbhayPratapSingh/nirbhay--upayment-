@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavCont,NavLink,CreateButton } from '../styledComponents/navbar.styled';
-import { CreateScreen } from './CreateScreen';
+import { CreateScreen } from './Landing';
 
 export const Navbar=()=>{
     
